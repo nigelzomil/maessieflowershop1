@@ -99,10 +99,27 @@
 
         .map{
             align-items: center;
-            margin-left: 1075px;
+            margin-left: 1150px;
             margin-top: 30px;
             margin-bottom: 50px;
         }
+
+        @media (max-width: 768px) {
+        .hope{
+            text-align: center;
+            margin-left: 5px;
+            margin-top: 50px;
+            font-size: 50px;
+        }
+
+        .map{
+            margin-left: 5px;
+            margin-right: 5px;
+            width: "350";
+            height: "300";
+        }
+    }
+      
     </style>
 </head>
 <body>
@@ -159,7 +176,14 @@
 
     <h2 class="hope">Or... visit our physical store here!</h2>
     <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sph!4v1741971719250!5m2!1sen!2sph!6m8!1m7!1sSHa0WQRl7ALW2-hwzg4KVQ!2m2!1d14.61521952067005!2d120.9887765885177!3f212.64756607065084!4f-11.846841693117852!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sph!4v1741971719250!5m2!1sen!2sph!6m8!1m7!1sSHa0WQRl7ALW2-hwzg4KVQ!2m2!1d14.61521952067005!2d120.9887765885177!3f212.64756607065084!4f-11.846841693117852!5f0.7820865974627469"
+            width="400" 
+            height="550" 
+            style="border:0; max-width: 100%; height: 550;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
     </div>
     <footer class="footer">
         <div class="container">
